@@ -1,0 +1,47 @@
+# Python 編譯檔與快取 (Byte-compiled / optimized files)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虛擬環境目錄 - 避免上傳數百 MB 的套件 (Virtual environments)
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook 暫存檔與檢查點 (Jupyter Notebook checkpoints)
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# 環境變數與 API 密鑰 - 絕對不可上傳 (Environment variables & API credentials)
+.env
+.env.*
+!.env.example
+
+# 作業系統暫存檔 (OS-specific temporary files)
+.DS_Store
+Thumbs.db
+
+# 開發環境設定檔 (IDE workspace settings)
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# 資料夾控管：忽略所有資料文件，僅保留資料夾結構 (Ignore data files, preserve directory structure)
+data/raw/*
+!data/raw/.keep
+data/processed/*
+!data/processed/.keep
+
+# 大型二進位檔、壓縮檔與模型權重 (Large binary files, archives & model weights)
+*.bin
+*.pt
+*.pth
+*.onnx
+*.tar.gz
+*.zip
+*.parquet
+*.sqlite3
+*.db

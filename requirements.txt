@@ -1,0 +1,16 @@
+# 建議 Python 版本 (Recommended Python Version): 3.11 或 3.12
+# =====================================================================
+
+# Jupyter 互動式筆記本環境 (Jupyter Notebook interactive environment)
+jupyter
+ipykernel
+
+# 資料處理與科學運算 (Data manipulation and numerical computing)
+pandas
+numpy
+
+# =====================================================================
+# 後續週次的套件 (如：中文斷詞、機器學習、API 等) 將隨著課程進度新增至此處。
+# 
+# (Future packages for NLP, ML, and APIs will be added dynamically.)
+# =====================================================================
