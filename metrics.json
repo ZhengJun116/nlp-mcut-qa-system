@@ -1,0 +1,22 @@
+{
+    "結構健全度 Phase_1_Mechanical_Sanity": {
+        " 形態可行性 Morphology_Median_Length": {
+            "Cleaned": 272.0,
+            "Raw": 204.0
+        },
+        "拓撲錨定率 Topology_TAR_Score": {
+            "Cleaned": 1.0,
+            "Raw": 1.0
+        },
+        "深度變異量 Depth_Variance_SDV": {
+            "Cleaned": 0.0,
+            "Raw": 0.0
+        }
+    },
+    "語意品質 Phase_2_Semantic_Quality": {
+        "夏農資訊熵 Information_Median_Entropy": {
+            "Cleaned": 5.0511890245397755,
+            "Raw": 4.714877070634452
+        }
+    }
+}

@@ -29,11 +29,22 @@ Thumbs.db
 !.vscode/settings.json
 !.vscode/extensions.json
 
-# 資料夾控管：忽略所有資料文件，僅保留資料夾結構 (Ignore data files, preserve directory structure)
-data/raw/*
-!data/raw/.keep
-data/processed/*
-!data/processed/.keep
+# Ignore raw PDF and bulk output files in any subdirectories
+data/raw/**/*.pdf
+data/raw/*.pdf
+data/interim/**/*.md
+data/interim/*.md
+data/processed/**/*.json
+data/processed/*.json
+
+# Always track .keep files to preserve directory structures
+!data/raw/**/.keep
+!data/interim/**/.keep
+!data/processed/**/.keep
+
+# 備份與暫存文字檔
+old_packages_backup.txt
+requirements_clean.txt
 
 # 大型二進位檔、壓縮檔與模型權重 (Large binary files, archives & model weights)
 *.bin
