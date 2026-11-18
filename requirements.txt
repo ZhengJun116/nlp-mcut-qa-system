@@ -16,3 +16,8 @@ numpy
 # =====================================================================
 docling
 matplotlib
+
+jieba
+rank_bm25
+scikit-learn
+sentence-transformers
